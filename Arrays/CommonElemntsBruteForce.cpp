@@ -17,7 +17,7 @@ public:
                     // Check if A[i], B[j], and C[k] are equal
                     if (A[i] == B[j] && B[j] == C[k]) {
                         // Check if the common element is not a duplicate
-                        if (commonElements.empty() || A[i] != commonElements.back())
+                        if (commonElements.empty() || A[i] != commonElements.back())//Check last element must not be duplicate
                             commonElements.push_back(A[i]); // Add the common element to the vector
                         break; // Move to the next element of array A
                     }
