@@ -24,9 +24,9 @@ int main(){
     cout<<mpp.size()<<endl;
 
     //Iterator
-    // for(auto it:mpp){
-    //     cout<<it.first<<"\t"<<it.second<<endl;
-    // }
+    for(auto it:mpp){
+        cout<<it.first<<"\t"<<it.second<<endl;
+    }
     //Main diffrence between unordered map-->random order and ordered map-->bst-->order is preserved is the elements are inserted in the same order but not in unordered map.
     unordered_map<string,int>:: iterator it=mpp.begin();
     while (it!=mpp.end()){
