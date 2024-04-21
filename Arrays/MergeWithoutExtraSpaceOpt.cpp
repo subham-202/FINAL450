@@ -41,7 +41,6 @@ int main() {
         cout << arr1[i] << " ";
     }
     cout << endl;
-
     // Output the merged array arr2.
     cout << "Merged array arr2: ";
     for (int i = 0; i < m; i++) {
