@@ -8,7 +8,6 @@ string isSubset(int a1[], int a2[], int n, int m) {
     // If size of a2 is greater than size of a1, a2 cannot be a subset of a1
     if (n < m)
         return "No";
-
     // Create a map to store the frequency of elements in a1
     unordered_map<int, int> mp;
     for (int i = 0; i < n; i++) {
